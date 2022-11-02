@@ -10,4 +10,5 @@ export const config = () => ({
     synchronize: true,
     logging: true,
   },
+  jwtSecret: process.env.JWT_SECRET,
 });
